@@ -21,6 +21,8 @@ namespace PaperInteractive
             Button btn2 = FindViewById<Button>(Resource.Id.btnMeeting);
             Button btnNewChild = FindViewById<Button>(Resource.Id.btnNewChild);
 
+            FragmentManager fm = FragmentManager;
+
             TextView header = FindViewById<TextView>(Resource.Id.textHeader);
 
             header.Text = "Välkommen!";
@@ -33,10 +35,15 @@ namespace PaperInteractive
 
             btnNewChild.Click += delegate
             {
-                Fragment createChildFragment = new Fragment1();
-                var fm = FragmentManager.BeginTransaction();
-                fm.Add(Resource.Id.fragment_container, createChildFragment);
-                fm.Commit();
+                
+                if (fm.BackStackEntryCount == 0)
+                {
+                    Fragment createChildFragment = new Fragment1();
+                    FragmentTransaction ft = fm.BeginTransaction();
+                    ft.Add(Resource.Id.fragment_container, createChildFragment);
+                    ft.AddToBackStack("createChildFragment");
+                    ft.Commit();
+                }
             };
         }
     }

@@ -24,7 +24,7 @@ namespace PaperInteractive
 
             string[] goat = new string[] { "1", "2", "3" };
 
-            Spinner spn = FindViewById<Spinner>(Resource.Id.spinner1);
+            Spinner spn = FindViewById<Spinner>(Resource.Id.spinnerChild);
 
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, goat);
 

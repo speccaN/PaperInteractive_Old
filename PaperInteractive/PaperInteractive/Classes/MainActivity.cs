@@ -26,6 +26,9 @@ namespace PaperInteractive
             TextView header = FindViewById<TextView>(Resource.Id.textHeader);
 
             header.Text = "Välkommen Din Apa!";
+
+            //halllåååå
+
             header.Gravity = Android.Views.GravityFlags.Center;
 
             btn2.Click += delegate

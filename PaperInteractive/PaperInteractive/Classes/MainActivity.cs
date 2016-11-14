@@ -30,7 +30,7 @@ namespace PaperInteractive
 
             btn2.Click += delegate
             {
-                StartActivity(typeof(Activity1));
+                StartActivity(typeof(MeetingActivity));
             };
 
             btnNewChild.Click += delegate

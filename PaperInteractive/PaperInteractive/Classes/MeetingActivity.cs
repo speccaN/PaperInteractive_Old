@@ -12,15 +12,15 @@ using Android.Widget;
 
 namespace PaperInteractive
 {
-    [Activity(Label = "Activity1")]
-    public class Activity1 : Activity
+    [Activity(Label = "Meeting")]
+    public class MeetingActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.layout1);
+            SetContentView(Resource.Layout.MeetingLayout);
 
             string[] goat = new string[] { "1", "2", "3" };
 

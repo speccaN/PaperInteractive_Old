@@ -51,8 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Activity1.cs" />
+    <Compile Include="Classes\Child.cs" />
+    <Compile Include="Classes\Exercise.cs" />
+    <Compile Include="Classes\Meeting.cs" />
+    <Compile Include="Classes\MeetingActivity.cs" />
     <Compile Include="Classes\MainActivity.cs" />
+    <Compile Include="Classes\Parent.cs" />
     <Compile Include="Fragments\Fragment1.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,7 +65,7 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\layout1.axml">
+    <AndroidResource Include="Resources\layout\MeetingLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ChildFragment.axml">

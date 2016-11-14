@@ -36,6 +36,11 @@ namespace PaperInteractive
                 StartActivity(typeof(Activity1));
             };
 
+            btn1.Click += delegate
+            {
+                StartActivity(typeof(Classes.LibraryActivity));
+            };
+
             btnNewChild.Click += delegate
             {
                 

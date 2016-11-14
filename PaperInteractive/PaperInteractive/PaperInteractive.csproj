@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Activity1.cs" />
+    <Compile Include="Classes\LibraryActivity.cs" />
     <Compile Include="Classes\MainActivity.cs" />
     <Compile Include="Fragments\Fragment1.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

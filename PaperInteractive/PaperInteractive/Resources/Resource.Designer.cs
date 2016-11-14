@@ -60,9 +60,6 @@ namespace PaperInteractive
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05000b
-			public const int btnCreateMeeting = 2131034123;
-			
 			// aapt resource value: 0x7f050003
 			public const int btnLibrary = 2131034115;
 			
@@ -72,23 +69,14 @@ namespace PaperInteractive
 			// aapt resource value: 0x7f050006
 			public const int btnNewChild = 2131034118;
 			
-			// aapt resource value: 0x7f05000d
-			public const int entry = 2131034125;
-			
 			// aapt resource value: 0x7f050007
 			public const int fragment_container = 2131034119;
-			
-			// aapt resource value: 0x7f05000c
-			public const int label = 2131034124;
 			
 			// aapt resource value: 0x7f050002
 			public const int linearLayout1 = 2131034114;
 			
 			// aapt resource value: 0x7f050005
 			public const int linearLayout2 = 2131034117;
-			
-			// aapt resource value: 0x7f05000e
-			public const int ok = 2131034126;
 			
 			// aapt resource value: 0x7f050008
 			public const int relativeLayout1 = 2131034120;
@@ -126,9 +114,6 @@ namespace PaperInteractive
 			
 			// aapt resource value: 0x7f030002
 			public const int MeetingLayout = 2130903042;
-			
-			// aapt resource value: 0x7f030003
-			public const int TestLayout = 2130903043;
 			
 			static Layout()
 			{
